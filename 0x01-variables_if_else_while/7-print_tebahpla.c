@@ -2,20 +2,17 @@
 
 /**
  * main - main block
- * Description: Print all numbers of base 10, starting from 0.
- * You are not allowed to use any variable of type char.
- * You can only use `putchar` to print to console.
- * You can only use `putchar` twice.
+ * Description: Print the alphabet in reverse order in lowercase.
  * Return: 0
  */
 
 int main(void)
 {
-	int  x;
+	char c;
 
-	for (x = 48; x < 58; x++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		putchar(x);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
